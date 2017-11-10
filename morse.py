@@ -1,3 +1,5 @@
+#translate any string into morse code.
+#each word is on a new line, each sentence is separated by 2 new lines.
 def mcode(astring):
     morse = {
         'A' : ". _",
@@ -38,9 +40,9 @@ def mcode(astring):
             result += morse[each]
     return result
 
-
+#call the mcode function to see an example.
 def main():
-    print(mcode("Hi there. this is a string."))
+    print(mcode("Hi there. This is a string."))
 
 
 
